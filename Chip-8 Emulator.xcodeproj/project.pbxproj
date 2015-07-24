@@ -1,0 +1,251 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8918ED2E1B597D3D00C16FB4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 8918ED2D1B597D3D00C16FB4 /* main.c */; };
+		891910031B609F7600E9B148 /* opcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 891910011B609F7600E9B148 /* opcodes.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8918ED281B597D3D00C16FB4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8918ED2A1B597D3D00C16FB4 /* Chip-8 Emulator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Chip-8 Emulator"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8918ED2D1B597D3D00C16FB4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; usesTabs = 1; };
+		891910011B609F7600E9B148 /* opcodes.c */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.c; path = opcodes.c; sourceTree = "<group>"; tabWidth = 4; usesTabs = 1; };
+		891910021B609F7600E9B148 /* opcodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opcodes.h; sourceTree = "<group>"; };
+		891910041B60A6A600E9B148 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8918ED271B597D3D00C16FB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8918ED211B597D3D00C16FB4 = {
+			isa = PBXGroup;
+			children = (
+				8918ED2C1B597D3D00C16FB4 /* Chip-8 Emulator */,
+				8918ED2B1B597D3D00C16FB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8918ED2B1B597D3D00C16FB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8918ED2A1B597D3D00C16FB4 /* Chip-8 Emulator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8918ED2C1B597D3D00C16FB4 /* Chip-8 Emulator */ = {
+			isa = PBXGroup;
+			children = (
+				8918ED2D1B597D3D00C16FB4 /* main.c */,
+				891910011B609F7600E9B148 /* opcodes.c */,
+				891910041B60A6A600E9B148 /* main.h */,
+				891910021B609F7600E9B148 /* opcodes.h */,
+			);
+			path = "Chip-8 Emulator";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8918ED291B597D3D00C16FB4 /* Chip-8 Emulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8918ED311B597D3D00C16FB4 /* Build configuration list for PBXNativeTarget "Chip-8 Emulator" */;
+			buildPhases = (
+				8918ED261B597D3D00C16FB4 /* Sources */,
+				8918ED271B597D3D00C16FB4 /* Frameworks */,
+				8918ED281B597D3D00C16FB4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Chip-8 Emulator";
+			productName = "Chip-8 Emulator";
+			productReference = 8918ED2A1B597D3D00C16FB4 /* Chip-8 Emulator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8918ED221B597D3D00C16FB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Aaron Halbert";
+				TargetAttributes = {
+					8918ED291B597D3D00C16FB4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 8918ED251B597D3D00C16FB4 /* Build configuration list for PBXProject "Chip-8 Emulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8918ED211B597D3D00C16FB4;
+			productRefGroup = 8918ED2B1B597D3D00C16FB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8918ED291B597D3D00C16FB4 /* Chip-8 Emulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8918ED261B597D3D00C16FB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8918ED2E1B597D3D00C16FB4 /* main.c in Sources */,
+				891910031B609F7600E9B148 /* opcodes.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8918ED2F1B597D3D00C16FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8918ED301B597D3D00C16FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8918ED321B597D3D00C16FB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8918ED331B597D3D00C16FB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8918ED251B597D3D00C16FB4 /* Build configuration list for PBXProject "Chip-8 Emulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8918ED2F1B597D3D00C16FB4 /* Debug */,
+				8918ED301B597D3D00C16FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8918ED311B597D3D00C16FB4 /* Build configuration list for PBXNativeTarget "Chip-8 Emulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8918ED321B597D3D00C16FB4 /* Debug */,
+				8918ED331B597D3D00C16FB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8918ED221B597D3D00C16FB4 /* Project object */;
+}
